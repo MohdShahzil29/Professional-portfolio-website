@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.about-content{
+    display: flex;
+    position: relative;
+    top: 89px;
+    background: rgba(0, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.poster img{
+    height: 350px;
+    position: relative;
+    top: 68px;
+    margin: 10px;
+    padding-left: 57px;
+}
+
+.text .about-txt {
+    position: relative;
+    top: -132px;
+    display: flex;
+    color: var(--pink);
+    justify-content: right;
+    margin-right: -76px;
+}
+
+.text .info{
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+}
+/* .btn-pro .btn {
+    position: relative;
+    top: 80%;
+    margin-left: 30px;
+} */

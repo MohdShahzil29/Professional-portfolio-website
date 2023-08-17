@@ -1,0 +1,25 @@
+.resume-content{
+    position: relative;
+    top: 191px;
+}
+.resume-txt{
+    position: relative;
+    top: 129px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: grab;
+}
+.resume-txt:hover{
+    color: var(--pink);
+}
+
+.vertical-timeline-element-content{
+    background: rgba(0, 255, 255, 0.25) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px) !important;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255) !important;
+}

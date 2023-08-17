@@ -1,0 +1,43 @@
+.footer-content {
+  background: rgba(0, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  position: relative;
+  top: 149px;
+  height: 314px;
+}
+.brand-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -88px;
+}
+.pragraph-footer {
+  position: relative;
+  top: -56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -208px;
+  position: relative;
+}
+.social-icon {
+  font-size: 31px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.social-icon:hover{
+    color: var(--pink);
+}

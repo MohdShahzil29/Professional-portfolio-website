@@ -1,0 +1,86 @@
+.banner {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(0, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  position: relative;
+  top: 47px;
+  width: 100%;
+}
+.model-img img {
+  height: 443px;
+  position: relative;
+  top: 13px;
+}
+.text {
+  color: white;
+  padding: 154px;
+}
+.pragraph {
+  color: rgb(249, 249, 249);
+  font-size: 32px;
+  margin: 12px;
+}
+
+.main-text {
+  position: fixed;
+  margin: 10px;
+  color: rgb(71, 203, 184);
+}
+
+.button {
+  position: relative;
+  top: 80px;
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+
+.btn-hr {
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 151, 1) 0%,
+    rgba(45, 150, 253, 1) 100%
+  );
+  font-size: 24px;
+  color: rgb(255, 253, 253);
+  border: 0;
+  height: 38px;
+  width: 116px;
+  cursor: pointer;
+  border-radius: 30px 20px 30px 20px;
+}
+.btn-hr:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.git-btn {
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 151, 1) 0%,
+    rgba(45, 150, 253, 1) 100%
+  );
+  font-size: 24px;
+  color: wheat;
+  border: 0;
+  height: 38px;
+  border-radius: 20px 30px 20px 30px;
+  width: 116px;
+  cursor: pointer;
+}
+.git-btn:hover {
+  background: rgba(0, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}

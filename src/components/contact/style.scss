@@ -1,0 +1,29 @@
+@import "../../Style-config//mixins.scss";
+.contact-txt {
+  position: relative;
+  top: 191px;
+}
+.contact-txt {
+  position: relative;
+  top: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: grab;
+}
+.contact-txt:hover {
+  color: var(--pink);
+}
+.contact-content-wrapper {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  flex-direction: column;
+  position: relative;
+  top: 118px;
+  @include small-screen {
+    margin-top: 75px;
+    flex-direction: row;
+  }
+}
