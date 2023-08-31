@@ -18,11 +18,11 @@
   color: var(--pink);
 }
 
-#ads {
+#project {
   margin: 30px 0 30px 0;
 }
 
-#ads .card-notigy-badge {
+.card-notigy-badge {
   position: absolute;
   left: -10px;
   top: -20px;

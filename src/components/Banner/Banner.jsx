@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import model from "../../images/model.png";
+import model1 from "../../images/model2.png"
 import Typewriter from "typewriter-effect";
 import ContentWrapper from "../ContentWrapper/ContentWrapper";
 import Roll from 'react-reveal/Roll';
@@ -29,7 +30,7 @@ const Banner = () => {
           </div>
 
           <div className="model-img">
-            <img src={model} alt="" />
+            <img src={model1} alt="" />
           </div>
         </div>
         </Roll>
